@@ -1,4 +1,4 @@
-list = [
+mbList = [
   {
     name: "石森虹花",
     img:
@@ -216,4 +216,78 @@ list = [
     group: "欅坂46",
     gen: 2,
   },
+  {
+    name: "大谷映美里",
+    img: "https://equal-love.jp/image/profile/otani_emiri.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "大場花菜",
+    img: "https://equal-love.jp/image/profile/oba_hana.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "音嶋莉沙",
+    img: "https://equal-love.jp/image/profile/otoshima_risa.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "齋藤樹愛羅",
+    img: "https://equal-love.jp/image/profile/saito_kiara.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "齊藤なぎさ",
+    img: "https://equal-love.jp/image/profile/saito_nagisa.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "佐々木舞香",
+    img: "https://equal-love.jp/image/profile/sasaki_maika.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "佐竹のん乃",
+    img: "https://equal-love.jp/image/profile/satake_nonno.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "髙松瞳",
+    img: "https://equal-love.jp/image/profile/takamatsu_hitomi.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "瀧脇笙古",
+    img: "https://equal-love.jp/image/profile/takiwaki_shoko.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "野口衣織",
+    img: "https://equal-love.jp/image/profile/noguchi_iori.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "諸橋沙夏",
+    img: "https://equal-love.jp/image/profile/morohashi_sana.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
+  {
+    name: "山本杏奈",
+    img: "https://equal-love.jp/image/profile/yamamoto_anna.jpg",
+    group: "=LOVE",
+    gen: -1,
+  },
 ];
+
+groupList = ["欅坂46", "=LOVE"];
