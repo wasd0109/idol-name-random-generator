@@ -51,7 +51,7 @@ std::string random_choice_from_vector(const std::vector<std::string> &v)
 
 bool determine_kisei_system(std::vector<std::string> &v)
 {
-    std::string kisei_indicator = "Šú¶";
+    std::string kisei_indicator = "ï¿½ï¿½ï¿½ï¿½";
     if (v[0].find(kisei_indicator) != std::string::npos)
     {
         return true;
@@ -61,7 +61,7 @@ bool determine_kisei_system(std::vector<std::string> &v)
 
 void remove_kisei_indicator(std::vector<std::string> &v)
 {
-    std::string kisei_indicator = "Šú¶";
+    std::string kisei_indicator = "ï¿½ï¿½ï¿½ï¿½";
     for (int i = 0; i < v.size(); i++)
     {
         if (v[i].find(kisei_indicator) != std::string::npos)
@@ -78,7 +78,7 @@ void print(const std::string &group, const std::string &member)
 int main()
 {
     std::vector<std::string> group_list, member_list;
-    std::string group_choice, member_choice, group_list_filename = "group", extension = ".txt";
+    std::string group_choice, member_choice, group_list_filename = "groups", extension = ".txt";
     group_list = read_groups_to_vector(group_list_filename + extension);
     group_choice = random_choice_from_vector(group_list);
     member_list = read_members_to_vector(group_choice + extension);
