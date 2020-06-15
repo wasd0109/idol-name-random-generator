@@ -291,3 +291,5 @@ mbList = [
 ];
 
 groupList = ["欅坂46", "=LOVE"];
+
+keywordList = ["おっぱい", "胸", "エロ"];
